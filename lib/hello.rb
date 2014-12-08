@@ -1,4 +1,8 @@
-# Default is "Hello World"
-name = ARGV.first || "World"
-# Author: Timur Mahammadov (tmahamma@uncc.edu)
-puts "Hello, #{name}!"
+class Greeter
+    def initialize(who)
+        @who = who
+    end
+    def greet
+        "Hello, #{@who}"
+    end
+end
