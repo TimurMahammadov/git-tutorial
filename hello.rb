@@ -1,2 +1,2 @@
 # Default is "World"
-puts "Hello, World"
+puts "Hello, #{ARGV.first}!"
